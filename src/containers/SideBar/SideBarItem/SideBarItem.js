@@ -2,7 +2,7 @@ import React from 'react';
 import { Icon, Menu } from 'semantic-ui-react';
 import './SideBarItem.scss';
 
-export function SideBarItem(props) {
+const SideBarItem = (props) => {
   const highlight = props.highlight ? 'highlight-item' : null;
 
   return (
@@ -14,3 +14,5 @@ export function SideBarItem(props) {
     </Menu.Item>
   )
 }
+
+export default SideBarItem;
