@@ -3,7 +3,7 @@ import { Subscription } from "./Subscription/Subscription";
 import { Divider } from "semantic-ui-react";
 import { SideBarHeader } from '../SideBarHeader/SideBarHeader';
 
-export class Subscriptions extends React.Component {
+class Subscriptions extends React.Component {
   render() {
     return (
       <React.Fragment>
@@ -18,3 +18,5 @@ export class Subscriptions extends React.Component {
     );
   }
 }
+
+export default Subscriptions;
