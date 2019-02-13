@@ -1,7 +1,8 @@
 import React from 'react';
 import SideBarItem from './SideBarItem/SideBarItem';
-import SideBarHeader from './SideBarHeader/SideBarHeader';
-import SideBarFooter from './SideBarFooter/SideBarFooter';
+import {SideBarHeader} from './SideBarHeader/SideBarHeader';
+import {SideBarFooter} from './SideBarFooter/SideBarFooter';
+import {Subscriptions} from './Subscriptions/Subscriptions';
 import { Menu, Divider } from 'semantic-ui-react';
 import './SideBar.scss';
 
@@ -19,6 +20,7 @@ export class SideBar extends React.Component {
         <SideBarItem label='Watch later' icon='clock'/>
         <SideBarItem label='Liked videos' icon='thumbs up'/>
         <Divider/>
+        <Subscriptions/>
         <SideBarHeader title='More from YouTube'/>
         <SideBarItem label='Movies and Shows' icon='film'/>
         <Divider/>
