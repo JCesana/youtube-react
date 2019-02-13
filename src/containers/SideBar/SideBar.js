@@ -6,7 +6,7 @@ import { Menu, Divider } from 'semantic-ui-react';
 import './SideBar.scss';
 
 
-class SideBar extends React.Component {
+export class SideBar extends React.Component {
   render() {
     return (
       <Menu borderless vertical stackable fixed='left' className='side-nav'>
@@ -31,5 +31,3 @@ class SideBar extends React.Component {
     )
   }
 }
-
-export default SideBar;
