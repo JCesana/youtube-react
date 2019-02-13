@@ -1,7 +1,7 @@
 import React from 'react';
 import './SideBarFooter.scss'
 
-function SideBarFooter() {
+export function SideBarFooter() {
   return (
     <React.Fragment>
       <div className='footer-block'>
@@ -24,5 +24,3 @@ function SideBarFooter() {
     </React.Fragment>
   );
 }
-
-export default SideBarFooter;
