@@ -1,25 +1,11 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import Subscription from '../Subscription';
+import {Subscriptions} from '../Subscriptions';
 
-describe('Subscription', () => {
-  test('renders empty subscription', () => {
+describe('Subscriptions', () => {
+  test('renders', () => {
     const wrapper = shallow(
-      <Subscription/>
-    );
-    expect(wrapper).toMatchSnapshot();
-  });
-
-  test('renders broadcasting subscription', () => {
-    const wrapper = shallow(
-      <Subscription broadcasting label='Productioncoder'/>
-    );
-    expect(wrapper).toMatchSnapshot();
-  });
-
-  test('renders non-broadcasting subscription with new videos', () => {
-    const wrapper = shallow(
-      <Subscription amountNewVideos={4} label='Productioncoder'/>
+      <Subscriptions/>
     );
     expect(wrapper).toMatchSnapshot();
   });
