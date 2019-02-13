@@ -7,7 +7,7 @@ export function Subscription(props) {
   let rightElement = null;
   const { broadcasting, amountNewVideos } = props;
   if (broadcasting) {
-    reightElement = <Icon name='signal' />;
+    rightElement = <Icon name='signal' />;
   } else if (amountNewVideos) {
     rightElement = <span className='new-videos-count'>{amountNewVideos}</span>;
   }
