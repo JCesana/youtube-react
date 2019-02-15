@@ -8,7 +8,7 @@ export function VideoGrid(props) {
   const divider = props.hideDivider ? null : <Divider/>;
   return (
     <React.Fragment>
-      <VideoGridHeader title='Trending' />
+      <VideoGridHeader title={props.title} />
       <div className='video-grid'>
         <VideoPreview/>
         <VideoPreview/>
