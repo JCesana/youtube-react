@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Tutorial
 
-This is an online tutorial that I am following to practice learning React, Redux, testing, and to practice styling in React. The tutorial can be found [here](https://productioncoder.com/build-youtube-in-react-part-1/).
+This is an online tutorial that I am following to practice learning React, Redux, testing, and styling in React. The tutorial can be found [here](https://productioncoder.com/build-youtube-in-react-part-1/).
 
 ## Available Scripts
 
